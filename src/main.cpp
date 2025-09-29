@@ -63,6 +63,6 @@ int main(int argc, char* argv[]) {
 
     // TODO: Free memory!
     delete[] labels;
-    delete values;
+    delete[] values;
     return 0;
 }
